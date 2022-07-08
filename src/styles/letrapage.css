@@ -1,0 +1,30 @@
+
+.gato-con-letra .cat {
+	width: 11.2rem;
+	height: 11.2rem;
+}
+.cuadro-con-letra p {
+	font-size: 3.75rem;
+}
+
+.cuadro-con-letra {
+	width: 9.3rem;
+	height: 6.25rem;
+	position: relative;
+	filter: drop-shadow(0 0 2px #000);
+}
+.cuadro-con-letra::after {
+	content: "";
+	border-right: 40px solid #fff;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	position: absolute;
+	top: 30px;
+	left: -25px;
+}
+.ej .img {
+	width: 5rem;
+}
+.ej p {
+	width: 6.25rem;
+}

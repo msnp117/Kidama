@@ -1,0 +1,162 @@
+[
+    {
+        "id": 0,
+        "letra": "a",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Auto",
+        "text2": "Avión",
+        "text3": "Árbol"
+    },
+    {
+        "id": 1,
+        "letra": "b",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Barco",
+        "text2": "Bote",
+        "text3": "Bota"
+    },
+    {
+        "id": 2,
+        "letra": "c",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Casa",
+        "text2": "Caballo",
+        "text3": "Camion"
+    },
+    {
+        "id": 3,
+        "letra": "d",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Delfin",
+        "text2": "Diamante",
+        "text3": "Dinosaurio"
+    },
+    {
+        "id": 4,
+        "letra": "e",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Elefante",
+        "text2": "Escoba",
+        "text3": "Escarapela"
+    },
+    {
+        "id": 5,
+        "letra": "f",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Foca",
+        "text2": "Foco",
+        "text3": "Flor"
+    },
+    {
+        "id": 6,
+        "letra": "g",
+        "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+        "text1": "Gato",
+        "text2": "Gaviota",
+        "text3": "Gorra"
+    },
+{
+    "id": 7,
+    "letra": "h",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Helado",
+    "text2": "Hielo",
+    "text3": "Hiena"
+},
+{
+    "id": 8,
+    "letra": "i",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Iglesia",
+    "text2": "Iglu",
+    "text3": "Isla"
+},
+{
+    "id": 9,
+    "letra": "j",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Jirafa",
+    "text2": "J...",
+    "text3": "J..."
+},
+{
+    "id": 10,
+    "letra": "k",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Koala",
+    "text2": "Kiwi",
+    "text3": "Kilo"
+},
+{
+    "id": 11,
+    "letra": "l",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Leon",
+    "text2": "Libro",
+    "text3": "Luciernaga"
+},
+{
+    "id": 12,
+    "letra": "m",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Manzana",
+    "text2": "Murcielago",
+    "text3": "Morsa"
+},
+{
+    "id": 13,
+    "letra": "n",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Naranja",
+    "text2": "Nutria",
+    "text3": "Nube"
+},
+{
+    "id": 14,
+    "letra": "ñ",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Ñandu",
+    "text2": "Ñoqui",
+    "text3": "Ñu"
+},
+{
+    "id": 15,
+    "letra": "o",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Oso",
+    "text2": "Ola",
+    "text3": "Ovni"
+}
+]

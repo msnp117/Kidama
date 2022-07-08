@@ -1,0 +1,34 @@
+
+.footer {
+	background: linear-gradient(0deg, #a2e1db, #ecd5e3);
+}
+
+.escribir{
+	height: 9rem;
+	resize: none;
+	outline: none;
+	border: none;
+	background-color: #eee;
+}
+
+.enviar {
+	border:  none;
+	box-shadow: 4px 5px 10px #222;
+	cursor: pointer;
+}
+.enviar:hover {
+	background-color: #ccc;
+}
+
+.redes {
+	cursor: pointer;
+}
+.redes .facebook:hover{
+	color: #7DABD0;
+}
+.redes .instagram:hover {
+	color: #f3b0c3;
+}
+.redes .mail:hover{
+	color: #E04C4C;
+}

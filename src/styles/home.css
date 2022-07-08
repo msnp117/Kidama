@@ -1,0 +1,25 @@
+
+
+
+.main img {
+	width: 18rem;
+}
+.cuadro-de-texto {
+	width: 230px;
+	height: 150px;
+	border-radius: 15px;
+	padding: 15px;
+	position: relative;
+	font-weight: bold;
+	font-size: 1rem;
+	filter: drop-shadow(0 0 2px #000);
+}
+.cuadro-de-texto::after {
+	content: "";
+	border-top: 40px solid #fff;
+	border-right: 25px solid transparent;
+	border-left: 25px solid transparent;
+	position: absolute;
+	top: 9.2rem;
+	left: 5.5rem;
+}

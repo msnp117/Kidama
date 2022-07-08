@@ -1,0 +1,13 @@
+
+
+.header {
+	background: linear-gradient(180deg, #a2e1db, #ecd5e3);;
+}
+
+.logo {
+	width: 4rem;
+}
+
+.nav-link:hover {
+	color: #aaa;
+}

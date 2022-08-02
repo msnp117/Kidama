@@ -1,21 +1,6 @@
-import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
-
-  const GetWidth = () => {
-    const [width, setWidth] = useState(window.innerWidth);
-
-    useEffect(() => {
-      const handleWidth = () => {
-        setWidth(window.innerWidth)
-      }
-      window.onresize = handleWidth
-    }, [])
-
-    return width
-  }
-
   return (
     <header className="header py-2 px-md-5">
       <nav className="navbar navbar-expand-md bg-transparent">
@@ -33,6 +18,7 @@ export default function Navbar() {
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
+            ñ
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
@@ -45,32 +31,36 @@ export default function Navbar() {
             className="collapse navbar-collapse justify-content-end w-50"
             id="navbarSupportedContent"
           >
-            <div className="d-flex flex-column text-center">
-              <h2 className="h5">¿Qué quieres aprender?</h2>
+            <div className="d-flex flex-column flex-md-row">
+              <div className="d-flex flex-column text-center">
+                <h2 className="h5">¿Qué quieres aprender?</h2>
 
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/abc">
-                    Abecedario
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/">
-                    Vocales
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/">
-                    Silabas
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/">
-                    Palabras
-                  </NavLink>
-                </li>
-              </ul>
-
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/abc">
+                      Abecedario
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/">
+                      Vocales
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/">
+                      Silabas
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/">
+                      Palabras
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <button className="btn btn-secondary w-100">Iniciar sesión</button>
+              </div>
             </div>
           </div>
         </div>

@@ -1,7 +1,9 @@
 
 import { useParams } from 'react-router-dom';
-import Letras from '../json/abecedario.json';
-import Navbar2 from '../components/Navbar2';
+import Letras from '../../json/abecedario.json';
+import Navbar2 from '../../components/navbar2/Navbar2';
+
+import './letrapage.css'
 
 export default function Letra() {
 

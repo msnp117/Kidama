@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import ReactDOM from "react-dom";
+import './modal.css'
 
 const Modal = ({ open, children, onClose }) => {
   const portalNode = document.createElement("div");

@@ -1,4 +1,4 @@
-
+import './navbar2.css'
 import { Link } from "react-router-dom";
 
 

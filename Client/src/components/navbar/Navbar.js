@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Login from "./Login";
-import Modal from "./Modal";
+import './navbar.css'
+import Login from "../Login";
+import Modal from "../modal/Modal";
 
 export default function Navbar() {
 

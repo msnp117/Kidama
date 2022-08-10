@@ -1,4 +1,4 @@
-
+import './footer.css'
 
  export default function Footer() {
      return (
@@ -24,10 +24,10 @@
                     </p>
                     <div>
                         <p className="">Contactenos por:</p>
-                        <div className="redes fs-1">
-                            <i className='bx bxl-facebook-circle facebook'></i>
-                            <i className='bx bxl-instagram instagram'></i>
-                            <i className='bx bx-envelope mail'></i>
+                        <div className="redes">
+                            <i className='bi bi-facebook facebook'></i>
+                            <i className='bi bi-instagram instagram'></i>
+                            <i className='bi bi-envelope mail'></i>
                         </div>
                     </div>
                 </div>

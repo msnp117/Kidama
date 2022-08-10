@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './app.css'
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
-import Home from "./pages/Home";
-import LetraPage from "./pages/LetraPage";
+import Home from "./pages/home/Home";
+import LetraPage from "./pages/letterPage/LetraPage";
 import AbcPage from "./pages/AbcPage";
 
 function App() {

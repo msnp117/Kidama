@@ -1,15 +1,12 @@
-import { useState } from "react";
+
 import { NavLink } from "react-router-dom";
 import './navbar.css'
-import Login from "../Login";
-import Modal from "../modal/Modal";
+import Login from "../login/Login";
 
 export default function Navbar() {
 
-  const [isOpen, setIsOpen] = useState(false)
-
   return (
-    <header className="header py-2 px-md-5">
+    <header className="header py-2 px-md-4">
       <nav className="navbar navbar-expand-md bg-transparent">
         <div className="container-fluid">
           <NavLink className="navbar-brand d-flex align-items-center" to="/">
@@ -65,11 +62,7 @@ export default function Navbar() {
                 </ul>
               </div>
               <div>
-                <button className="btn btn-secondary w-100" onClick={() => setIsOpen(true)}>Iniciar sesión</button>
-
-                <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-                  <Login />
-                </Modal>
+                <Login />
               </div>
             </div>
           </div>

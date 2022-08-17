@@ -96,8 +96,8 @@
     "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
     "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
     "text1": "Jirafa",
-    "text2": "J...",
-    "text3": "J..."
+    "text2": "Jugo",
+    "text3": "Jabalí"
 },
 {
     "id": 10,
@@ -158,5 +158,115 @@
     "text1": "Oso",
     "text2": "Ola",
     "text3": "Ovni"
+},
+{
+    "id": 16,
+    "letra": "p",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Perro",
+    "text2": "Pato",
+    "text3": "Pelota"
+},
+{
+    "id": 17,
+    "letra": "q",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Queso",
+    "text2": "Quirófano",
+    "text3": "Químico"
+},
+{
+    "id": 18,
+    "letra": "r",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Ratón",
+    "text2": "Roca",
+    "text3": "Rama"
+},
+{
+    "id": 19,
+    "letra": "s",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Sapo",
+    "text2": "Sol",
+    "text3": "Silla"
+},
+{
+    "id": 20,
+    "letra": "t",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Tomate",
+    "text2": "Toro",
+    "text3": "Tortuga"
+},
+{
+    "id": 21,
+    "letra": "u",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Uva",
+    "text2": "Uña",
+    "text3": "Unicornio"
+},
+{
+    "id": 22,
+    "letra": "v",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Vaso",
+    "text2": "Vela",
+    "text3": "Vino"
+},
+{
+    "id": 23,
+    "letra": "w",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Wifi",
+    "text2": "Walter",
+    "text3": "Wall-e"
+},
+{
+    "id": 24,
+    "letra": "x",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Xilófono",
+    "text2": "Xhipo",
+    "text3": "Xilografía"
+},
+{
+    "id": 25,
+    "letra": "y",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Yoyo",
+    "text2": "Yegua",
+    "text3": "Yogur"
+},
+{
+    "id": 26,
+    "letra": "z",
+    "image1": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image2": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "image3": "https://i.pinimg.com/736x/23/45/47/2345470d0014cd5ef7d7c5d17a63575b.jpg",
+    "text1": "Zorro",
+    "text2": "Zapallo",
+    "text3": "Zanahoria"
 }
 ]

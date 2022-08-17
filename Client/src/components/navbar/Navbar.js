@@ -1,7 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import './navbar.css'
-import Login from "../login/Login";
+import Login from "../register-login/login/Login";
 
 export default function Navbar() {
 

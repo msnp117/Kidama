@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Register from "../registerOptions/RegisterOptions";
 import "./login.css";
-import axios from "axios";
 import { useState } from "react";
 
 export default function Login() {
@@ -27,16 +26,26 @@ export default function Login() {
         contraseña,
       };
       setLoading(true);
-      await axios
-        .post("http://localhost:4000/user/login", Usuario)
-        .then(({ data }) => {
-          setMensaje(data.mensaje);
-          setInputs({ correo: "", contraseña: "" });
-          setTimeout(() => {
-            setMensaje("");
-            setLoading(false);
-          }, 1500);
+      fetch(`http://localhost:4000/user/login`, {
+        method: "post",
+        body: JSON.stringify(Usuario),
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      })
+        .then((data) => data.json())
+        .then((data) => {
+          return (
+            setMensaje(data.mensaje),
+            setInputs({ correo: "", contraseña: "" }),
+            setTimeout(() => {
+              setMensaje("");
+              setLoading(false);
+            }, 1500)
+          );
         })
+
         .catch((err) => {
           console.error(err);
           setMensaje("Hubo un error");
@@ -45,8 +54,6 @@ export default function Login() {
             setLoading(false);
           }, 1500);
         });
-
-      setLoading(false);
     }
   };
   return (

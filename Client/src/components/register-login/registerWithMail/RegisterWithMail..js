@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import { useState } from "react";
 
 export default function RegisterWithMail() {
@@ -26,9 +26,16 @@ export default function RegisterWithMail() {
         contraseña,
       };
       setLoading(true);
-      await axios
-        .post("http://localhost:4000/user/register", Usuario)
-        .then(({ data }) => {
+      fetch("http://localhost:4000/user/register", {
+        method: "post",
+        body: JSON.stringify(Usuario),
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      })
+        .then((data) => data.json())
+        .then((data) => {
           setMensaje(data.mensaje);
           setInputs({ correo: "", nombre: "", contraseña: "" });
           setTimeout(() => {
@@ -123,8 +130,7 @@ export default function RegisterWithMail() {
                 <button type="submit" className="btn btn-secondary">
                   {loading ? "Cargando..." : "Registrarme"}
                 </button>
-
-                {mensaje && <div>{mensaje}</div>}
+                {mensaje && <p>{mensaje}</p>}
               </form>
             </div>
             <div className="modal-footer">

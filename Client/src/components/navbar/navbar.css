@@ -5,7 +5,8 @@
 }
 
 .logo {
-	width: 4rem;
+	width: 10rem;
+	margin: 0
 }
 
 .nav-link:hover {

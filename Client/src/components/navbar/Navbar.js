@@ -1,21 +1,15 @@
-
 import { NavLink } from "react-router-dom";
-import './navbar.css'
+import "./navbar.css";
 import Login from "../register-login/login/Login";
+import logo from "../../assets/imgs/logo.png";
 
 export default function Navbar() {
-
   return (
-    <header className="header py-2 px-md-4">
+    <header className="header px-md-5">
       <nav className="navbar navbar-expand-md bg-transparent">
         <div className="container-fluid">
           <NavLink className="navbar-brand d-flex align-items-center" to="/">
-            <img
-              className="logo p-2"
-              src="https://cdn.pixabay.com/photo/2013/07/13/11/43/cat-158514_640.png"
-              alt=""
-            />
-            <h1 className="h3">Small Helps</h1>
+            <img className="logo" src={logo} alt="" />
           </NavLink>
 
           <button
@@ -34,29 +28,27 @@ export default function Navbar() {
             className="collapse navbar-collapse justify-content-end w-50"
             id="navbarSupportedContent"
           >
-            <div className="d-flex flex-column flex-md-row">
-              <div className="d-flex flex-column text-center">
-                <h2 className="h5">¿Qué quieres aprender?</h2>
-
+            <div className="d-flex flex-column flex-md-row ">
+              <div className="text-center">
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/abc">
-                      Abecedario
+                      Juegos
                     </NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/">
-                      Vocales
+                      Mascota
                     </NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/">
-                      Silabas
+                      Biblioteca
                     </NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/">
-                      Palabras
+                      Tienda
                     </NavLink>
                   </li>
                 </ul>

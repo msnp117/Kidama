@@ -1,15 +1,15 @@
 
 .gato-con-letra .cat {
-	width: 11.2rem;
-	height: 11.2rem;
+	width: 11rem;
 }
 .cuadro-con-letra p {
 	font-size: 3.75rem;
 }
 
 .cuadro-con-letra {
-	width: 9.3rem;
-	height: 6.25rem;
+	width: 9rem;
+	height: 6rem;
+	margin-left: 1.5rem;
 	position: relative;
 	filter: drop-shadow(0 0 2px #000);
 }
@@ -20,7 +20,7 @@
 	border-bottom: 25px solid transparent;
 	position: absolute;
 	top: 30px;
-	left: -25px;
+	left: -20px;
 }
 .ej .img {
 	width: 5rem;

@@ -2,6 +2,7 @@
 import { useParams } from 'react-router-dom';
 import Letras from '../../json/abecedario.json';
 import Navbar2 from '../../components/navbar2/Navbar2';
+import kida2 from '../../assets/imgs/kida-2.png'
 
 import './letrapage.css'
 
@@ -23,7 +24,7 @@ export default function Letra() {
                     <div className="d-flex flex-column flex-md-row align-items-center justify-content-evenly p-2 w-75 w-md-50 gap-4 m-auto" >
                        
                         <div className="gato-con-letra d-flex">
-                            <img className='cat' src="https://cdn.pixabay.com/photo/2020/11/15/18/51/cat-5746875_960_720.png" alt="" />
+                            <img className='cat' src={kida2} alt="" />
                             <div className="cuadro-con-letra bg-white rounded d-flex align-items-center justify-content-center">
                                 <p className="">{Letra.letra.toUpperCase()}</p>
                             </div>

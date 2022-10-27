@@ -19,8 +19,8 @@ import './footer.css'
 
                 <div className="col-12 col-md-5">
                     <p>
-                        ¿Qué es Small Helps? <br/> 
-                        Esto es una página web de pequeñas ayudas cuyo objetivo principal es brindarle conocimiento al usuario a base de lo que este les ofrece, temas basicos de ciclo inferior de una primaria escolar, enseñando de una manera sencilla y entretenida.
+                        ¿Qué es Kidama? <br/> 
+                        Kidama es una aplicación web de juegos didácticos para reforzar algunos conocimientos básicos de los niños, motivándolos además con una mascota virtual que se podrá personalizar mediante las recompensas obtenidas en los juegos.
                     </p>
                     <div>
                         <p>Contactenos por:</p>

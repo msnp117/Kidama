@@ -6,7 +6,7 @@ import logo from "../../assets/imgs/logo.png";
 export default function Navbar() {
   return (
     <header className="header px-md-5">
-      <nav className="navbar navbar-expand-md bg-transparent">
+      <nav className="navbar navbar-expand-md bg-transparent p-0">
         <div className="container-fluid">
           <NavLink className="navbar-brand d-flex align-items-center" to="/">
             <img className="logo" src={logo} alt="" />

@@ -1,0 +1,24 @@
+
+.opciones {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.opimg {
+    width: 10rem;
+}
+
+.opcion {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+}
+
+.opcion:hover{
+    color: #444;
+    transform: scale(1.1);
+    transition: transform .5s;
+}

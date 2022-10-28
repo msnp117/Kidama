@@ -5,10 +5,11 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./pages/home/Home";
-import LetraPage from "./pages/letterPage/LetraPage";
-import AbcPage from "./pages/abcPage/AbcPage";
-import SoundsPage from "./pages/sounds/SoundsPage";
-import CanvasPage from "./pages/canvas/CanvasPage"
+import LetraPage from "./pages/letterPage/LetterPage";
+import AbcPage from "./pages/abc-mainPage/AbcPage";
+import SoundsPage from "./pages/sounds-mainPage/SoundsPage";
+import CanvasPage from "./pages/canvas/CanvasPage";
+
 
 function App() {
   return (

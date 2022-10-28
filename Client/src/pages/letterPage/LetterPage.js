@@ -4,7 +4,7 @@ import Letras from '../../json/abecedario.json';
 import Navbar2 from '../../components/navbar2/Navbar2';
 import kida2 from '../../assets/imgs/kida-2.png'
 
-import './letrapage.css'
+import './letterpage.css'
 
 export default function Letra() {
 

@@ -15,7 +15,7 @@ export default function Home() {
         </p>
       </div>
       <img
-        className="pt-5"
+        className="kida pt-5"
         src={kida}
         alt=""
       />

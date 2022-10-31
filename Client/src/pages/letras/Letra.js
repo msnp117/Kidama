@@ -1,10 +1,12 @@
 
 import { useParams } from 'react-router-dom';
-import Letras from '../../json/abecedario.json';
+// import Letras from '../../json/abecedario.json';
 import Navbar2 from '../../components/navbar2/Navbar2';
+import Letras from './letras'
 import kida2 from '../../assets/imgs/kida-2.png'
 
-import './letterpage.css'
+import './letra.css'
+import voces from '../../components/Voces/voces'
 
 export default function Letra() {
 
@@ -25,21 +27,21 @@ export default function Letra() {
                        
                         <div className="gato-con-letra d-flex">
                             <img className='cat' src={kida2} alt="" />
-                            <div className="cuadro-con-letra bg-white rounded d-flex align-items-center justify-content-center">
+                            <div onClick={() => voces(Letra.letra)} className="cuadro-con-letra bg-white rounded d-flex align-items-center justify-content-center">
                                 <p className="">{Letra.letra.toUpperCase()}</p>
                             </div>
                         </div>
             
                         <div className="d-flex flex-column text-start">
-                            <div className="ej ej1 d-flex align-items-center gap-5 my-2">
+                            <div onClick={() => voces(Letra.text1)} className="ej ej1 d-flex align-items-center gap-5 my-2">
                                 <img className="img" src={Letra.image1} alt="" />
                                 <p className='fs-3'>{Letra.text1.toUpperCase()}</p>
                             </div>
-                            <div className="ej ej2 d-flex align-items-center gap-5 my-2">
+                            <div onClick={() => voces(Letra.text2)} className="ej ej2 d-flex align-items-center gap-5 my-2">
                                 <img className="img" src={Letra.image2} alt="" />
                                 <p className='fs-3'>{Letra.text2.toUpperCase()}</p>
                             </div>
-                            <div className="ej ej3 d-flex align-items-center gap-5 my-2">
+                            <div onClick={() => voces(Letra.text3)} className="ej ej3 d-flex align-items-center gap-5 my-2">
                                 <img className="img" src={Letra.image3} alt="" />
                                 <p className='fs-3'>{Letra.text3.toUpperCase()}</p>
                             </div>

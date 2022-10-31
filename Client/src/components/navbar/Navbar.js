@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-md bg-transparent p-0">
         <div className="container-fluid">
           <NavLink className="navbar-brand d-flex align-items-center" to="/">
-            <img className="logo" src={logo} alt="" />
+            <img id="logo" src={logo} alt="" />
           </NavLink>
 
           <button

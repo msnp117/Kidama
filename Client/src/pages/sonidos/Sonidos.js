@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import Letras from "../../json/abecedario.json";
 
-export default function SoundsPage() {
+export default function Sonidos() {
   return (
     <div className="d-flex flex-column align-items-center">
       <div className="d-flex w-75 align-items-center">
         <Link to="/abc">
           <button className="btn">
-            <i class="bi bi-arrow-bar-left"> </i>
+            <i className="bi bi-arrow-bar-left"> </i>
             Volver
           </button>
         </Link>

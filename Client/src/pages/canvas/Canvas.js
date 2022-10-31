@@ -1,9 +1,9 @@
 import CanvasDraw from "react-canvas-draw";
 import { useRef } from "react";
 
-import './canvasPage.css'
+import './canvas.css'
 
-export default function CanvasPage() {
+export default function Canvas() {
   const canvas = useRef(null);
 
   const clear = () => {

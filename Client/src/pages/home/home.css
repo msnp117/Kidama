@@ -4,6 +4,10 @@
 .main .kida {
 	width: 18rem;
 }
+
+.home {
+	cursor: pointer;
+}
 .cuadro-de-texto {
 	width: 230px;
 	height: 150px;

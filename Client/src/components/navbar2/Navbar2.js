@@ -34,13 +34,13 @@ export default function Navbar2(props) {
     return (
         <div className="nav2  d-flex justify-content-evenly align-items-center p-2 mb-3 border border-light fs-1">
             <Link to={`/abc/${anterior(props.id, props.lista)}`} className="link-dark">
-            <i class="bi bi-arrow-left-circle"></i>
+            <i className="bi bi-arrow-left-circle"></i>
             </Link>
             <Link to="/abc/sonidos" className="link-dark h2">
                 {props.title}
             </Link>
             <Link to={`/abc/${siguiente(props.id, props.lista)}`} className="link-dark">
-            <i class="bi bi-arrow-right-circle"></i>
+            <i className="bi bi-arrow-right-circle"></i>
             </Link>
         </div>
     )

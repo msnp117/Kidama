@@ -40,7 +40,7 @@ export default function AbcPage() {
         </Link>
         <a href="https://kidama.netlify.app/src/pages/juegos/memorama/memorama.html" target="_BLANK" className="opcion">
           <img className="opimg" src={MemoramaIco} alt="" />
-          <h4>Memorama</h4>1
+          <h4>Memorama</h4>
         </a>
       </div>
     </div>
